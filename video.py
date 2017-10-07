@@ -5,7 +5,7 @@ import cv2
 #     capture = cv.CaptureFromCAM(i)
 #     if capture: break
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(-1)
 print(cap)
 
 while(True):
